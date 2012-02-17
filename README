@@ -1,3 +1,4 @@
+This was made using python 2.5. I also used the python library beautifulsoup.
 To view all slides for a particular webpage, put the url in the beginning of the script where it says url = "PUT URL IN BETWEEN THESE QUOTES"
 
 Examples of sites where View-All-Slides works:
