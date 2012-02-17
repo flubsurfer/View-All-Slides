@@ -103,23 +103,22 @@ while 1 == 1:
 
 
 #REMOVE TAGS AND JUST LEAVE URL
-#	cleannextslideurl=''
-#	for nextslideurl in nextslideurl:
-#		cleannextslideurl = nextslideurl['href']
+	cleannextslideurl=''
+	for nextslideurl in nextslideurl:
+		cleannextslideurl = nextslideurl['href']
 
 
 #PUT TOGETHER FULL NEXT SLIDE USING URL PARSE AND NEXTSLIDEURL
-#	fullnextslideurl = "http://" + urlcomponents.netloc + cleannextslideurl
+	fullnextslideurl = "http://" + urlcomponents.netloc + cleannextslideurl
 	
 	
 
 #WHATEVER RESULTS I WANT PRINTED
 #MAKE FULLNEXTSLIDEURL THE NEW URL TO PARSE AND ITERATE 
-#	print slidename
-#	print specificpic
-#	print para
-#	url = fullnextslideurl
-	print nextslideurl
+	print slidename
+	print specificpic
+	print para
+	url = fullnextslideurl
 
 
 #OPEN SLIDE IN BROWSER
