@@ -90,6 +90,9 @@ while 1 == 1:
 			nextslideurls = soup.findAll('a', {'id' : re.compile("next", re.I)})
 	if not nextslideurls:
 			nextslideurls = soup.findAll('span', {'class' : re.compile("next", re.I)})
+	if not nextslideurls:
+			nextslideurls = soup.findAll('a', {'class' : re.compile("gallery-right-btn", re.I)})
+	
 
 	
 #SINCE IT MAY PRINT MORE THAN ONE RESULT FOR NEXT SLIDE URL. I MADE THIS VARIABLE TO ONLY PRINT THE FIRST ITEM IN THE RESULTS	
@@ -119,6 +122,7 @@ while 1 == 1:
 	print specificpic
 	print para
 	url = fullnextslideurl
+	
 
 
 #OPEN SLIDE IN BROWSER
